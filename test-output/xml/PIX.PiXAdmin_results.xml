@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run On CHROME"
+           tests="8"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="45.015">
+  <properties />
+  
+  
+            <testcase name="PIX_02_RiskTrade" time="1.640" classname="PIX.PiXAdmin" />
+                <testcase name="Order_01_Place_Success_Buy" time="9.715" classname="PIX.PiXAdmin" />
+                <testcase name="Order_05_Place_Exceed_Max_Value" time="6.054" classname="PIX.PiXAdmin" />
+                <testcase name="Order_04_Place_OutOfPriceRange_LimitDown" time="6.182" classname="PIX.PiXAdmin" />
+                <testcase name="PIX_03_Parameters" time="1.383" classname="PIX.PiXAdmin" />
+                <testcase name="Order_03_Place_OutOfPriceRange_LimitUp" time="6.499" classname="PIX.PiXAdmin" />
+                <testcase name="Order_02_Place_Success_Sell" time="8.480" classname="PIX.PiXAdmin" />
+                <testcase name="PIX_01_ITMonitor" time="5.062" classname="PIX.PiXAdmin" />
+      
+</testsuite>

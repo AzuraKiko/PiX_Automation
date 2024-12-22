@@ -1,0 +1,1 @@
+{"uuid":"a771ba73-346d-4fd7-aefe-bf6007d0164a","name":"PIX","children":["976fbf74-2341-4fdc-87c8-86d3fbc87031"],"befores":[{"name":"initBeforeSuite","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1726731186355,"stop":1726731186361}],"afters":[],"links":[],"start":1726731186327,"stop":1726731544584}

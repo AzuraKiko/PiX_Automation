@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run On CHROME"
+           tests="14"
+           failures="1"
+           errors="0"
+           skipped="0"
+           time="229.754">
+  <properties />
+            <testcase name="OF_14_MatchPartially" time="14.012" classname="PIX.OrderFlow">
+                <failure type="java.lang.AssertionError"
+                  message="expected [Filled] but found [Partially Filled]"
+              >
+<![CDATA[java.lang.AssertionError: expected [Filled] but found [Partially Filled]
+  org.testng.Assert.fail(Assert.java:99)
+  org.testng.Assert.failNotEquals(Assert.java:1037)
+  org.testng.Assert.assertEqualsImpl(Assert.java:140)
+  org.testng.Assert.assertEquals(Assert.java:122)
+  org.testng.Assert.assertEquals(Assert.java:629)
+  org.testng.Assert.assertEquals(Assert.java:639)
+  PIX.OrderFlow.OF_14_MatchPartially(OrderFlow.java:588)
+  java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+  java.base/java.lang.reflect.Method.invoke(Method.java:580)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+  org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+  org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+  org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+  org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+  org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+  org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+  java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+  java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+  java.base/java.lang.Thread.run(Thread.java:1570)
+]]>
+      </failure>
+
+          </testcase>
+  
+  
+            <testcase name="OF_01_PlaceSellOrder" time="12.934" classname="PIX.OrderFlow" />
+                <testcase name="OF_09_Buy_ModifyQtyDown" time="17.508" classname="PIX.OrderFlow" />
+                <testcase name="OF_08_Buy_ModifyQtyUp" time="17.884" classname="PIX.OrderFlow" />
+                <testcase name="OF_04_Sell_ModifyPriceUp" time="16.955" classname="PIX.OrderFlow" />
+                <testcase name="OF_03_Sell_ModifyQtyDown" time="17.355" classname="PIX.OrderFlow" />
+                <testcase name="OF_12_Buy_CancelOrder" time="13.888" classname="PIX.OrderFlow" />
+                <testcase name="OF_07_PlaceBuyOrder" time="8.185" classname="PIX.OrderFlow" />
+                <testcase name="OF_13_MatchFully" time="14.463" classname="PIX.OrderFlow" />
+                <testcase name="OF_06_Sell_CancelOrder" time="14.367" classname="PIX.OrderFlow" />
+                <testcase name="OF_11_Buy_ModifyPriceDown" time="17.620" classname="PIX.OrderFlow" />
+                <testcase name="OF_02_Sell_ModifyQtyUp" time="29.441" classname="PIX.OrderFlow" />
+                <testcase name="OF_05_Sell_ModifyPriceDown" time="17.187" classname="PIX.OrderFlow" />
+                <testcase name="OF_10_Buy_ModifyPriceUp" time="17.955" classname="PIX.OrderFlow" />
+      
+</testsuite>
